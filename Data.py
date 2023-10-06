@@ -1,4 +1,4 @@
-# from pyrogram.types import InlineKeyboardButton
+from pyrogram.types import InlineKeyboardButton
 
 class Data:
     HELP = """
@@ -52,3 +52,4 @@ class Data:
   • Channel : @Animes_Xyz
 
  👨‍💻 Developed by @Animes_Xyz
+"""
