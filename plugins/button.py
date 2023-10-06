@@ -11,9 +11,9 @@ def start_button(client):
         return [
             [
                 InlineKeyboardButton(
-                    text="ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs", callback_data="help"
+                    text="Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅs", callback_data="help"
                 ),
-                InlineKeyboardButton(text="ᴛᴜᴛᴜᴘ", callback_data="close"),
+                InlineKeyboardButton(text="Cʟᴏsᴇ", callback_data="close"),
             ],
         ]
     if (
@@ -23,45 +23,45 @@ def start_button(client):
     ):
         return [
             [
-                InlineKeyboardButton(text="Cʜᴀɴɴᴇʟ-1", url=client.invitelink1),
+                InlineKeyboardButton(text="Cʜᴀɴɴᴇʟ 1", url=client.invitelink1),
             ],
             [
                 InlineKeyboardButton(
-                    text="ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs", callback_data="help"
+                    text="Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅs", callback_data="help"
                 ),
-                InlineKeyboardButton(text="ᴛᴜᴛᴜᴘ", callback_data="close"),
+                InlineKeyboardButton(text="Cʟᴏsᴇ", callback_data="close"),
             ],
         ]
     if FORCE_SUB_CHANNEL1 and FORCE_SUB_CHANNEL2 and not FORCE_SUB_CHANNEL3 and not FORCE_SUB_CHANNEL4:
         return [
             [
-                InlineKeyboardButton(text="Cʜᴀɴɴᴇʟ-1", url=client.invitelink1),
+                InlineKeyboardButton(text="Cʜᴀɴɴᴇʟ 1", url=client.invitelink1),
             ],
             [
-                InlineKeyboardButton(text="Cʜᴀɴɴᴇʟ-2", url=client.invitelink2),
+                InlineKeyboardButton(text="Cʜᴀɴɴᴇʟ 2", url=client.invitelink2),
             ],
             [
                 InlineKeyboardButton(
-                    text="ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs", callback_data="help"
+                    text="Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅs", callback_data="help"
                 ),
-                InlineKeyboardButton(text="ᴛᴜᴛᴜᴘ", callback_data="close"),
+                InlineKeyboardButton(text="Cʟᴏsᴇ", callback_data="close"),
             ],
         ]
     if FORCE_SUB_CHANNEL1 and FORCE_SUB_CHANNEL2 and FORCE_SUB_CHANNEL3 and not FORCE_SUB_CHANNEL4:
         return [
             [
                 InlineKeyboardButton(
-                    text="ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs", callback_data="help"
+                    text="Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅs", callback_data="help"
                 ),
             ],
             [
-                InlineKeyboardButton(text="Cʜᴀɴɴᴇʟ-1", url=client.invitelink1),
-                InlineKeyboardButton(text="Cʜᴀɴɴᴇʟ-2", url=client.invitelink2),
+                InlineKeyboardButton(text="Cʜᴀɴɴᴇʟ 1", url=client.invitelink1),
+                InlineKeyboardButton(text="Cʜᴀɴɴᴇʟ 2", url=client.invitelink2),
             ],
             [
-                InlineKeyboardButton(text="Cʜᴀɴɴᴇʟ-3", url=client.invitelink3),
+                InlineKeyboardButton(text="Cʜᴀɴɴᴇʟ 3", url=client.invitelink3),
             ],
-            [InlineKeyboardButton(text="ᴛᴜᴛᴜᴘ", callback_data="close")],
+            [InlineKeyboardButton(text="Cʟᴏsᴇ", callback_data="close")],
         ]
     if FORCE_SUB_CHANNEL1 and FORCE_SUB_CHANNEL2 and FORCE_SUB_CHANNEL3:
         return [
@@ -71,14 +71,14 @@ def start_button(client):
                 ),
             ],
             [
-                InlineKeyboardButton(text="Cʜᴀɴɴᴇʟ-1", url=client.invitelink1),
-                InlineKeyboardButton(text="Cʜᴀɴɴᴇʟ-2", url=client.invitelink2),
+                InlineKeyboardButton(text="Cʜᴀɴɴᴇʟ 1", url=client.invitelink1),
+                InlineKeyboardButton(text="Cʜᴀɴɴᴇʟ 2", url=client.invitelink2),
             ],
             [
-                InlineKeyboardButton(text="Cʜᴀɴɴᴇʟ-3", url=client.invitelink3),
-                InlineKeyboardButton(text="Cʜᴀɴɴᴇʟ-4", url=client.invitelink4),
+                InlineKeyboardButton(text="Cʜᴀɴɴᴇʟ 3", url=client.invitelink3),
+                InlineKeyboardButton(text="Cʜᴀɴɴᴇʟ 4", url=client.invitelink4),
             ],
-            [InlineKeyboardButton(text="ᴛᴜᴛᴜᴘ", callback_data="close")],
+            [InlineKeyboardButton(text="Cʟᴏsᴇ", callback_data="close")],
         ]
 
 
