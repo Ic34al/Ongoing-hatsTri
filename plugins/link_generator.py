@@ -45,7 +45,7 @@ async def batch(client: Client, message: Message):
         if s_msg_id:
             break
         await second_message.reply(
-            "❌ <b>ERROR</b>\n\n<b>Postingan yang Diforward ini bukan dari Channel Database saya</b>",
+            "❌ <b>ERROR</b>\n\n<b>This Forwarded Post is not from my DB Channel or this Link is taken from DB Channel</b>",
             quote=True,
         )
         continue
