@@ -1,58 +1,54 @@
-# Credits: @mrismanaziz
-# FROM File-Sharing-Man <https://github.com/mrismanaziz/File-Sharing-Man/>
-# t.me/SharingUserbot & t.me/Lunatic0de
-
-from pyrogram.types import InlineKeyboardButton
+# from pyrogram.types import InlineKeyboardButton
 
 class Data:
     HELP = """
-<b> ❏ Perintah untuk Pengguna BOT
- ├ /start - Mulai Bot
- ├ /about - Tentang Bot ini
- ├ /help - Bantuan Perintah Bot ini
- ├ /ping - Untuk mengecek bot hidup
- └ /uptime - Untuk melihat status bot 
- 
- ❏ Perintah Untuk Admin BOT
- ├ /logs - Untuk melihat logs bot
- ├ /vars - Untuk melihat variable bot
- ├ /setvar - Untuk mengatur var dengan command dibot
- ├ /delvar - Untuk menghapus var dengan command dibot
- ├ /getvar - Untuk melihat salah satu var dengan command dibot
- ├ /users - Untuk melihat statistik pengguna bot
- ├ /batch - Untuk membuat link lebih dari satu file
- ├ /speedtest - Untuk Mengetes kecepatan server bot
- └ /broadcast - Untuk mengirim pesan broadcast ke pengguna bot
+<b>How to Use this Bot
 
-👨‍💻 Develoved by @Lunatic0de</b>
+  ❏ Commands for BOT Users
+  ├ /start - Starts the Bot
+  ├ /about - About this Bot
+  ├ /help - Help this Bot Command
+  ├ /ping - To check live bots
+  └ /uptime - To see bot status
+
+  ❏ Commands For BOT Admins
+  ├ /logs - To view bot logs
+  ├ /setvar - To set var with dibot command
+  ├ /delvar - To remove var with dibot command
+  ├ /getvar - To see one of the var with dibot command
+  ├ /users - To view bot user statistics
+  ├ /batch - To link more than one file
+  ├ /speedtest - To test the bot server speed
+  └ /broadcast - To send a broadcast message to the bot user
+  
+ 👨‍💻 Developed by </b><a href='https://t.me/Animes_Xyz'>Anime Xyz</a>
 """
 
     close = [
-        [InlineKeyboardButton("ᴛᴜᴛᴜᴘ", callback_data="close")]
+        [InlineKeyboardButton("🍁Cʟᴏsᴇ🍁", callback_data="close")]
     ]
 
     mbuttons = [
         [
-            InlineKeyboardButton("ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs", callback_data="help"),
-            InlineKeyboardButton("ᴛᴜᴛᴜᴘ", callback_data="close")
+            InlineKeyboardButton("🏮Hᴇʟᴘ🏮", callback_data="help"),
+            InlineKeyboardButton("🍁Cʟᴏsᴇ🍁", callback_data="close")
         ],
     ]
 
     buttons = [
         [
-            InlineKeyboardButton("ᴛᴇɴᴛᴀɴɢ sᴀʏᴀ", callback_data="about"),
-            InlineKeyboardButton("ᴛᴜᴛᴜᴘ", callback_data="close")
+            InlineKeyboardButton("🥀Aʙᴏᴜᴛ🥀", callback_data="about"),
+            InlineKeyboardButton("🍁Cʟᴏsᴇ🍁", callback_data="close")
         ],
     ]
 
     ABOUT = """
-<b>Tentang Bot ini:
+<b>About this Bot:
 
-@{} adalah Bot Telegram untuk menyimpan Postingan atau File yang dapat Diakses melalui Link Khusus.
+ @Animes_Xyz_bot is a Telegram Bot for storing posts or files that can be accessed via a special link.
 
- • Creator: @{}
- • Source Code: <a href='https://github.com/mrismanaziz/File-Sharing-Man'>File-Sharing-Man v4</a>
- • Owner Repo: @mrismanaziz
+  • Creator: @Trippy_Xt
+  • Framework: Pyrograms
+  • Channel : @Animes_Xyz
 
-👨‍💻 Develoved by @Lunatic0de</b>
-"""
+ 👨‍💻 Developed by @Animes_Xyz
