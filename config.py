@@ -52,7 +52,7 @@ START_MSG = os.environ.get(
     "<b>Hello {first}</b>\n\n<b>I am a File Store bot Powered by @Animes_Shadows⚡..</b>",
 )
 try:
-    ADMINS = [int(x) for x in (os.environ.get("ADMINS", "5493260414‎").split())]
+    ADMINS = [int(x) for x in (os.environ.get("ADMINS", "6109807345‎").split())]
 except ValueError:
     raise Exception("Daftar Admin Anda tidak berisi User ID Telegram yang valid.")
 
