@@ -49,7 +49,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 # Pesan Awalan /start
 START_MSG = os.environ.get(
     "START_MESSAGE",
-    "<b>Hello {first}</b>\n\n<b>I am a File Store bot Powered by @Animes_Shadows⚡..</b>",
+    "<b>Hello {first}</b>\n\n<b>I am a File Store bot Powered by @Anime_Shadows⚡..</b>",
 )
 try:
     ADMINS = [int(x) for x in (os.environ.get("ADMINS", "6414650128‎").split())]
