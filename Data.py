@@ -45,11 +45,11 @@ class Data:
     ABOUT = """
 <b>About this Bot:
 
- @Animes_Xyz_bot is a Telegram Bot for storing posts or files that can be accessed via a special link.
+ @AnimeShadow_Bot is a Telegram Bot for storing posts or files that can be accessed via a special link.
 
-  • Creator: @Trippy_Xt
+  • Creator: @Fusion_Alone
   • Framework: Pyrograms
-  • Channel : @Animes_Xyz
+  • Channel : @Anime_Shadows
 
- 👨‍💻 Developed by @Animes_Xyz
+ 👨‍💻 Developed by @Anime_Shadows
 """
