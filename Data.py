@@ -21,7 +21,7 @@ class Data:
   ├ /speedtest - To test the bot server speed
   └ /broadcast - To send a broadcast message to the bot user
   
- 👨‍💻 Developed by </b><a href='https://t.me/Animes_Xyz'>Anime Xyz</a>
+ 👨‍💻 Developed by </b><a href='https://t.me/Anime_Shadows'>Anime Shadows</a>
 """
 
     close = [
