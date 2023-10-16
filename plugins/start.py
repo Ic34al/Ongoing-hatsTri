@@ -171,7 +171,7 @@ async def not_joined(client: Bot, message: Message):
 @Bot.on_message(filters.command(["users", "stats"]) & filters.user(ADMINS))
 async def get_users(client: Bot, message: Message):
     msg = await client.send_message(
-        chat_id=message.chat.id, text="<code>Rᴜᴋ Jᴀ Bsᴅᴋ Cᴏᴜɴᴛ ᴋᴀʀ ʀʜᴀ....</code>"
+        chat_id=message.chat.id, text="<code>Rᴜᴋ Jᴀ Cᴏᴜɴᴛ ᴋᴀʀ ʀʜᴀ....</code>"
     )
     users = await full_userbase()
     await msg.edit(f"{len(users)} <b>Usᴇʀs ᴜsᴇ ᴛʜɪs ʙᴏᴛ</b>")
@@ -189,7 +189,7 @@ async def send_text(client: Bot, message: Message):
         unsuccessful = 0
 
         pls_wait = await message.reply(
-            "<code>Broadcasting Message  Fᴜᴄᴋ ʏᴏᴜ ᴛɪʟʟ I ᴀᴍ ʙʀᴏᴀᴅᴄᴀsᴛɪɴɢ :)</code>"
+            "<code>Broadcasting Message  Plz Wait ʏᴏᴜ ᴛɪʟʟ I ᴀᴍ ʙʀᴏᴀᴅᴄᴀsᴛɪɴɢ :)</code>"
         )
         for row in query:
             chat_id = int(row[0])
