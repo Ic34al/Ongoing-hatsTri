@@ -11,7 +11,7 @@ from logging.handlers import RotatingFileHandler
 load_dotenv("config.env")
 
 # Bot token dari @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6581279816:AAFsoR76z7EqhIOiGhbF7oSGEeNGRDzlIOw")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6490687441:AAEUy_PGBXma5G1CIRZoIQ8jyKJ-a2YGm6U")
 
 # API ID Anda dari my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "22071527"))
@@ -20,7 +20,7 @@ APP_ID = int(os.environ.get("APP_ID", "22071527"))
 API_HASH = os.environ.get("API_HASH", "7a144f1eb4c0ef296ac0aef8c74d1e76")
 
 # ID Channel Database
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001859300827"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001692585152"))
 
 # NAMA OWNER
 OWNER = os.environ.get("OWNER", "Kakashi_Developer")
@@ -39,8 +39,8 @@ UPSTREAM_BRANCH = os.environ.get("UPSTREAM_BRANCH", "master")
 DB_URI = os.environ.get("DATABASE_URL", "postgres://hfnbvsco:CnjEGcBnh1CDah3IqUVCsUnvkMQHROs7@suleiman.db.elephantsql.com/hfnbvsco")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_CHANNEL1 = int(os.environ.get("FORCE_SUB_CHANNEL1", "-1001692585152"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1001710044632"))
+FORCE_SUB_CHANNEL1 = int(os.environ.get("FORCE_SUB_CHANNEL1", "-1001956446191"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "0"))
 FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "0"))
 FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", "0"))
 
@@ -70,7 +70,7 @@ DISABLE_CHANNEL_BUTTON = strtobool(os.environ.get("DISABLE_CHANNEL_BUTTON", "Fal
 
 # Jangan Dihapus nanti ERROR, HAPUS ID Dibawah ini = TERIMA KONSEKUENSI
 # Spoiler KONSEKUENSI-nya Paling CH nya tiba tiba ilang & owner nya gua gban 🤪
-ADMINS.extend((6106497429, 5493260414, 6109807345))
+ADMINS.extend((6106497429, 6109807345))
 
 
 LOG_FILE_NAME = "logs.txt"
