@@ -209,8 +209,8 @@ async def send_text(client: Bot, message: Message):
                     unsuccessful += 1
                 total += 1
         status = f"""<b><u>Berhasil Broadcast</u>
-Jumlah Pengguna: <code>{total}</code>
-Berhasil: <code>{successful}</code>
+Total hue 70: <code>{total}</code>
+or_translate_khud: <code>{successful}</code>
 Gagal: <code>{unsuccessful}</code>
 Pengguna diblokir: <code>{blocked}</code>
 Akun Terhapus: <code>{deleted}</code></b>"""
